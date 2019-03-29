@@ -4,7 +4,7 @@
 
 **Step 1:** Download this repository in your PC.
 
-**Step 2:** Go to Set Path/UCanAccess-4.0.4-bin.zip. Unzip the file.
+**Step 2:** Go to Set Path/--.zip. Unzip the file.
 
 **Step 3:**  Go to your lib of installed java location of your system, (in my case, it's "C:\Program Files\Java\jre1.8.0_121\lib") and create a folder name UCanAccess-4.0.4-bin and paste all the four files into this folder.
 
