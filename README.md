@@ -1,4 +1,4 @@
-# Java-Swing-Projects (GUI Application)
+# Java-Swing-Projects (GUI Application/Projects)
 
 # How to run this project?
 
