@@ -15,3 +15,6 @@
 **Step 7:** Restart your pc.
 
 **Step 8:** Run any JAVA SWING program from src file.(src/---.java)
+
+# Eclipse Major File Bug (OEPEArtifactContentProvider$OEPEArtifactContainer)
+Do:- Window->Open Perspective->Other->Java (default)
