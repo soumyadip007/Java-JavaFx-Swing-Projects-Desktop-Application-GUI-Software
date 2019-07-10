@@ -1,4 +1,4 @@
-# JavaFx-Swing-Projects (GUI Application/Projects)
+# JavaFx-Swing-Projects (GUI Desktop Application/Projects)
 
 # How to run this project?
 
