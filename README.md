@@ -21,11 +21,11 @@ Do:- Window->Open Perspective->Other->Java (default)
 
 # Software Output
 
-# ------------------------Realtime Chatbot------------------------
+# ------------------------Realtime Chatbot-----------------------
 
 <img src="./Software img/Chatbot.png" >
 
 # ------------------------Calculator------------------------
 
-<img src="./Software img/calc1.png" > <br>
-<img src="./Software img/calc2.png" >
+<img src="./img/calc1.png" > <br>
+<img src="./img/calc2.png" >
