@@ -24,3 +24,8 @@ Do:- Window->Open Perspective->Other->Java (default)
 # ------------------------Realtime Chatbot------------------------
 
 <img src="./Software img/Chatbot.png" >
+
+# ------------------------Calculator------------------------
+
+<img src="./Software img/calc1.png" > <br>
+<img src="./Software img/calc2.png" >
