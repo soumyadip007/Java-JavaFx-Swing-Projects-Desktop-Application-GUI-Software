@@ -21,6 +21,6 @@ Do:- Window->Open Perspective->Other->Java (default)
 
 # Software Output
 
-# ---------------------------Realtime Chatbot---------------------------
+# ------------------------Realtime Chatbot------------------------
 
 <img src="./Software img/Chatbot.png" >
