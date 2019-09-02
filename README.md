@@ -27,5 +27,5 @@ Do:- Window->Open Perspective->Other->Java (default)
 
 # ------------------------Calculator------------------------
 
-<img src="./Software img/calc1.png" > <br>
-<img src="./Software img/calc2.png" >
+<img src="./Software img/Calc1.png" > <br>
+<img src="./Software img/Calc2.png" >
