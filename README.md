@@ -40,7 +40,7 @@ Do:- Window->Open Perspective->Other->Java (default)
 - [Java Swing Complete tutorial with example for JavaGuides.net](https://github.com/soumyadip007/Java-Swing-tutorials-and-examples-for-JavaGuides.net)
 
 
-*J2EE (JSP/Servlet/JSTL/JDBC Projects)*
+# #J2EE (JSP/Servlet/JSTL/JDBC Projects)
 
 - [E-Market Place OLX-Clone](https://github.com/soumyadip007/E-Marketplace-for-buying-and-reselling-products-Web-Project-Using-JSP-Servlet-Jstl-Security-Jdbc)
 
