@@ -1,5 +1,10 @@
 package Textbook_selling_system;
-
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Toolkit;

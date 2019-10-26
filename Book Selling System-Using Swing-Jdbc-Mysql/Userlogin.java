@@ -1,5 +1,10 @@
 package Textbook_selling_system;
-
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 import java.awt.BorderLayout;
 
 import java.awt.EventQueue;

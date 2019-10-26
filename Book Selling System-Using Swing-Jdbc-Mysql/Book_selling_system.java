@@ -1,6 +1,11 @@
 package Textbook_selling_system;
 
-
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 
 public class Book_selling_system {
 
