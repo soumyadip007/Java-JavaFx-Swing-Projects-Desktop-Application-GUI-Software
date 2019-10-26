@@ -1,11 +1,16 @@
 package Project;
-
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 import java.awt.EventQueue;
 
 import javax.swing.*;
 
 import java.awt.*;
-//import org.eclipse.wb.swing.FocusTraversalOnArray;
+
 import java.awt.event.*;
 public class Calculator {
 

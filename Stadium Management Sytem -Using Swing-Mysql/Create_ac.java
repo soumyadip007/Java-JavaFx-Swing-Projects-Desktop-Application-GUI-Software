@@ -1,4 +1,10 @@
 package Stedium_Management;
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 import java.sql.*;
 import java.awt.EventQueue;
 import javax.swing.JFrame;

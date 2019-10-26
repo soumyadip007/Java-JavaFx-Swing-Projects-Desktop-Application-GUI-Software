@@ -1,5 +1,10 @@
 package Stedium_Management;
-
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.EventQueue;

@@ -1,5 +1,10 @@
 package Stedium_Management;
-
+/**
+ * 
+ * @author Soumyadip Chowdhury
+ * @github soumyadip007
+ *
+ */
 import java.util.*;
 
 import java.awt.BorderLayout;
