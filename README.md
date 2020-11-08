@@ -1,4 +1,5 @@
 # JavaFx-Swing-Projects (GUI Desktop Application/Projects)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsoumyadip007%2FJava-JavaFx-Swing-Projects-Desktop-Application-GUI-Software&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # How to run this project?
 
