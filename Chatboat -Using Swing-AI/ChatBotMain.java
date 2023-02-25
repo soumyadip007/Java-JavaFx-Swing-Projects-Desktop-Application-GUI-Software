@@ -78,7 +78,7 @@ public class ChatBotMain extends JFrame {
 			
 		});
 		textField_1.setFont(new Font("Tahoma", Font.PLAIN, 23));
-		textField_1.setBounds(0, 555, 338, 60);
+		textField_1.setBounds(0, 555, 320, 50);
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		btnSend = new JButton("Send");
@@ -87,7 +87,9 @@ public class ChatBotMain extends JFrame {
 				action();
 			}
 		});
-		btnSend.setBounds(341, 555, 75, 59);
+		btnSend.setBounds(320, 555, 85, 50);
+		btnSend.setBackground(Color.BLACK);
+		btnSend.setForeground(Color.WHITE);
 		contentPane.add(btnSend);
 		textArea = new JTextArea();
 		textArea.setFont(new Font("Tahoma", Font.PLAIN, 19));
