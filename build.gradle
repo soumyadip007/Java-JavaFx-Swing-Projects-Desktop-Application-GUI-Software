@@ -1,0 +1,10 @@
+plugins {
+  id "org.sonarqube" version "4.2.1.3168"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "bhushan"
+    property "sonar.projectName", "bhushan"
+  }
+}
