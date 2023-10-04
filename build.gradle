@@ -4,7 +4,7 @@ plugins {
 
 sonar {
   properties {
-    property "sonar.projectKey", "bhushan"
-    property "sonar.projectName", "bhushan"
+    property "sonar.projectKey", "java2"
+    property "sonar.projectName", "java2"
   }
 }
