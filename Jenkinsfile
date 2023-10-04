@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+        // Define the tool name and type (e.g., Maven)
+        maven 'Maven'
+    }
     stages {
         stage('Checkout') {
             steps {
@@ -18,8 +22,7 @@ pipeline {
                 // Configure SonarQube environment
                 withSonarQubeEnv('My SonarQube Server') {
                     // Run SonarQube analysis
-                    def mvnHome = tool name: 'Maven', type: 'Tool'
-                    sh "${mvnHome}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'"
+                    sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName="bhushan"'
                 }
             }
         }
