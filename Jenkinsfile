@@ -16,7 +16,7 @@ pipeline {
                 script {
                     def scannerHome = tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
                     withSonarQubeEnv('bhushan') {
-                        bat "C:\\SonarQube\\sonar-scanner-5.0.1.3006-windows\\bin\\sonar-scanner.bat -X"
+                        bat "C:\\SonarQube\\sonar-scanner-5.0.1.3006-windows\\bin\\sonar-scanner.bat"
 
                     }
                 }
