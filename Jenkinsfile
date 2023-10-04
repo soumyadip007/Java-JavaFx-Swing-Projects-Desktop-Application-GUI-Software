@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'windows' // Specify a Windows agent label
-    }
+    agent any
     stages {
         stage('SCM') {
             steps {
