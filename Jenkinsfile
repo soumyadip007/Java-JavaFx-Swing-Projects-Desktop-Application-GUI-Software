@@ -1,19 +1,28 @@
 pipeline {
     agent any
     stages {
-        stage('SCM') {
+        stage('Checkout') {
             steps {
+                // Checkout your code from Git
                 checkout scm
+            }
+        }
+        stage('Build') {
+            steps {
+                // Build your project
+                sh 'mvn clean install'
             }
         }
         stage('SonarQube Analysis') {
             steps {
-                script {
-                    def mavenHome = tool name: 'Default Maven', type: 'hudson.tasks.Maven$MavenInstallation'
-                    bat "\"${mavenHome}\\bin\\mvn.cmd\" clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'"
-                }
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    error("Maven build and SonarQube analysis failed")
+                // Configure SonarQube environment
+                withSonarQubeEnv('My SonarQube Server') {
+                    // Run SonarQube analysis
+					def mvn = tool 'Default Maven';
+					withSonarQubeEnv() {
+						sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'"
+					}
+                    sh 'mvn sonar:sonar'
                 }
             }
         }
