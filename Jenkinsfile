@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build your project
-                sh 'mvn clean install'
+                bat 'mvn clean install'
             }
         }
         stage('SonarQube Analysis') {
@@ -22,7 +22,7 @@ pipeline {
                 // Configure SonarQube environment
                 withSonarQubeEnv('My SonarQube Server') {
                     // Run SonarQube analysis
-                    sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName="bhushan"'
+                    bat 'mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName="bhushan"'
                 }
             }
         }
