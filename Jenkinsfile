@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Define the tool name and type (e.g., Maven)
-        maven 'Maven'
+        maven 'Default Maven'
     }
     stages {
         stage('Checkout') {
