@@ -18,14 +18,10 @@ pipeline {
                 // Configure SonarQube environment
                 withSonarQubeEnv('My SonarQube Server') {
                     // Run SonarQube analysis
-					def mvn = tool 'Default Maven';
-					withSonarQubeEnv() {
-						sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'"
-					}
-                    sh 'mvn sonar:sonar'
+                    def mvnHome = tool name: 'Maven', type: 'Tool'
+                    sh "${mvnHome}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'"
                 }
             }
         }
     }
 }
-
