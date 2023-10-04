@@ -3,9 +3,12 @@ node {
     checkout scm
   }
   stage('SonarQube Analysis') {
-    def mvn = tool 'Default Maven';
-    withSonarQubeEnv() {
-      sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'"
+    def mvnHome = tool 'Default Maven';
+    def maven = bat(script: "\"${mvnHome}\\bin\\mvn.bat\" clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName='bhushan'", returnStatus: true)
+    
+    if (maven != 0) {
+      currentBuild.result = 'FAILURE'
+      error("Maven build and SonarQube analysis failed")
     }
   }
 }
