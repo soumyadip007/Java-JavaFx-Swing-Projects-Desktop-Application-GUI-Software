@@ -1,24 +1,37 @@
 pipeline {
     agent any
+    tools {
+    // Make sure the name matches the one configured in Jenkins
+    maven 'mvn'
+    }
 
+    
     stages {
-        stage('Checkout') {
+        stage('SCM') {
             steps {
-                checkout scm
+                // Checkout the code from Git
+                checkout([$class: 'GitSCM', 
+                          branches: [[name: '*/master']], 
+                          doGenerateSubmoduleConfigurations: false, 
+                          extensions: [], 
+                          submoduleCfg: [], 
+                          userRemoteConfigs: [[url: 'https://github.com/BhushanShete/Hotel-Management-Project-Java.git']]])
             }
         }
-
+        
         stage('SonarQube Analysis') {
-            environment {
-                scannerHome = tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
-            }
             steps {
-                script {
-                    def scannerHome = tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
-                    withSonarQubeEnv('bhushan') {
-                        bat "C:\\SonarQube\\sonar-scanner-5.0.1.3006-windows\\bin\\sonar-scanner.bat"
+                // Set up environment variables for SonarQube
+                withSonarQubeEnv('bhushan') {
+                    // Run Maven clean
+                    bat 'mvn clean'
+                    
+                    // Run Maven verify
+                    bat 'mvn verify'
+                    
+                    // Run SonarQube analysis
+                    bat 'mvn clean verify sonar:sonar -Dsonar.projectKey=bhushan -Dsonar.projectName=\'bhushan''
 
-                    }
                 }
             }
         }
