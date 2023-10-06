@@ -5,17 +5,6 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                }
-            }
-        stage('SCM') {
-            steps {
-                // Checkout the code from Git
-                checkout([$class: 'GitSCM', 
-                          branches: [[name: '*/main']], 
-                          doGenerateSubmoduleConfigurations: false, 
-                          extensions: [], 
-                          submoduleCfg: [], 
-                          userRemoteConfigs: [[url: 'https://github.com/BhushanShete/Java-JavaFx-Swing-Projects-Desktop-Application-GUI-Software.git']]])
             }
         }
 
@@ -26,9 +15,8 @@ pipeline {
             steps {
                 script {
                     def scannerHome = tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
-                    def mvn = tool 'mvn';
                     withSonarQubeEnv('bhushan') {
-                        bat "${mvn} clean verify sonar:sonar -Dsonar.projectKey=bhushanJAVA -Dsonar.projectName='bhushanJAVA'"
+                        bat "C:\\SonarQube\\sonar-scanner-5.0.1.3006-windows\\bin\\sonar-scanner.bat"
 
                     }
                 }
