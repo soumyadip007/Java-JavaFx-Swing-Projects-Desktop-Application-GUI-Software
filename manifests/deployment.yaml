@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mydotnetapp
+  labels:
+    app: mydotnetapp
+  namespace: namespace-workflow-1697130820079
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mydotnetapp
+  template:
+    metadata:
+      labels:
+        app: mydotnetapp
+    spec:
+      containers:
+        - name: mydotnetapp
+          image: acrworkflow1697130820079.azurecr.io/image-workflow-1697130820079:latest
+          ports:
+            - containerPort: 8080
