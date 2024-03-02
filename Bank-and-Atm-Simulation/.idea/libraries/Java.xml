@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Java">
+    <ANNOTATIONS>
+      <root url="file://C:/Program Files/Java" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://C:/Program Files/Java" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/Program Files/Java" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://C:/Program Files/Java" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://C:/Program Files/Java" />
+    </SOURCES>
+    <jarDirectory url="file://C:/Program Files/Java" recursive="false" />
+    <jarDirectory url="file://C:/Program Files/Java" recursive="false" type="SOURCES" />
+  </library>
+</component>

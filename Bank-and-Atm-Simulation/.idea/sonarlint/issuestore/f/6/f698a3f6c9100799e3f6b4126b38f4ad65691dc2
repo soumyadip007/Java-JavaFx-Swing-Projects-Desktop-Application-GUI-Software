@@ -1,0 +1,6 @@
+
+_
+java:S1192#"IDefine a constant instead of duplicating this literal "Raleway" 25 times.(Î×•
+k	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù µãüÿÿÿÿ
+a
+java:S1659"FDeclare "textFname" and all following declarations on a separate line.(ÍïÛ™ÿÿÿÿÿ

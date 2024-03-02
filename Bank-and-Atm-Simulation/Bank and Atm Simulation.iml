@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jcalendar-tz-1.3.3-4" level="project" />
+    <orderEntry type="library" name="Java" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.28" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="0321b3d2-7c0f-4849-ab6b-e60fbb68d9aa" />
+  </component>
+</module>

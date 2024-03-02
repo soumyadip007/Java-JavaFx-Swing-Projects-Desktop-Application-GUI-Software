@@ -1,0 +1,17 @@
+
+_
+java:S1192"IDefine a constant instead of duplicating this literal "Raleway" 26 times.(‡¢ˆÿ
+f
+java:S2259à"CA "NullPointerException" could be thrown; "atype" is nullable here.(Ó£‘Ëşÿÿÿÿ8Î«€Ôß1
+Z
+java:S1659"?Declare "r2" and all following declarations on a separate line.(ŠÀ ôüÿÿÿÿ
+Z
+java:S1659"?Declare "c2" and all following declarations on a separate line.(¢—Çøÿÿÿÿ
+5
+java:S1659"Declare "c" on a separate line.(µÏ¦½
+n
+java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¼ Òşüÿÿÿÿ
+5
+java:S2119È"Save and re-use this "Random".(¸Í×
+Y
+java:S1117ã"6Rename "c2" which hides the field declared at line 12.(²ˆııÿÿÿÿ8êûœÄß1

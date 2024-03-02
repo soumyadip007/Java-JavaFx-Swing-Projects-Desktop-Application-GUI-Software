@@ -1,0 +1,15 @@
+
+i
+java:S1192"GDefine a constant instead of duplicating this literal "System" 3 times.(…Ÿòêøÿÿÿÿ8ÆşÑÓß1
+r
+java:S1192j"PDefine a constant instead of duplicating this literal "' where pin = '" 3 times.(”ó›µûÿÿÿÿ8ÈşÑÓß1
+.
+java:S1700"Rename field "pin"(Üj8ÉşÑÓß1
+Q
+java:S1874X"/Remove this use of "getText"; it is deprecated.(¿ÔùÁøÿÿÿÿ8ãşÑÓß1
+Q
+java:S1874Y"/Remove this use of "getText"; it is deprecated.(åŒúùÿÿÿÿ8ãşÑÓß1
+Q
+java:S1874`"/Remove this use of "getText"; it is deprecated.(Ö£÷Ïÿÿÿÿÿ8äşÑÓß1
+L
+java:S1874d"/Remove this use of "getText"; it is deprecated.(±‰ºĞ8äşÑÓß1
